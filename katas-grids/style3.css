@@ -58,7 +58,8 @@ body {
         grid-template-columns: 120px auto 120px;
         grid-template-areas:
             "header  header  header"
-            "sidebar content sidebar2"
+            "sidebar sidebar sidebar2"
+            "list content sidebar2"
             "footer  footer  footer";
 
         /* CENTRAGE */
