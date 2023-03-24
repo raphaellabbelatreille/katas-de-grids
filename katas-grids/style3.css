@@ -32,13 +32,13 @@ body {
 /* Grilles */
 .wrapper {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
     grid-template-areas:
-        "header"
-        "sidebar"
-        "content"
-        "sidebar2"
-        "footer"
+        "sidebar header header"
+        "sidebar list list"
+        "content content sidebar2"
+        "footer footer sidebar2"
 }
 
 @media only screen and (min-width: 500px) {
