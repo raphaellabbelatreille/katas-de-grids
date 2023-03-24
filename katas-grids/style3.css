@@ -47,7 +47,8 @@ body {
         grid-template-areas:
             "header   header"
             "sidebar  content"
-            "sidebar2 sidebar2"
+            "list content"
+            "list sidebar2"
             "footer   footer";
     }
 }
